@@ -1,19 +1,64 @@
-<header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="./index.html">yachtjet</a>
+      <nav class="header-nav">
+       <ul class="header-nav-list">
+       <li class="header-nav-list-item"><a class="header-nav-link" href="">About</a></li>
+       <li class="header-nav-list-item"><a class="header-nav-link" href="">Yachts</a></li>
+       <li class="header-nav-list-item"><a class="header-nav-link" href="">Reviews</a></li>
+       </ul>                                               
+      </nav>
+          <ul class="header-icon-list">
+              <li class="header-icon-list-item"><svg class="icon" width="24" height="24">
+                <use href="../img/sprite.svg#instagram"></use>
+              </svg></li>
+              <li class="header-icon-list-item"><svg class="icon" width="24" height="24">
+                <use href="../img/sprite.svg#youtube"></use>
+              </svg></li>
+              <li class="header-icon-list-item"><svg class="icon" width="24" height="24">
+                <use href="../img/sprite.svg#facebook"></use>
+              </svg></li>
+          </ul>
+    
+      <button class="burger-button" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="10">
+            <use href="../img/sprite.svg#burger"></use>
+          </svg>
+      </button>
+      </div>
+     
+     <!-- #region mobile menu  -->
+       <div class="mobile-menu is-open" data-menu>
+          <div class="container mobile-menu-container">
+           <div class="mobile-logo-container">
+            <a class="menu-logo" href="./index.html">yachtjet</a>
+              <button class="menu-close-btn" data-menu-close>
+                  <svg class="close-icon" width="16" height="16">
+                    <use href="../img/sprite.svg#close"></use>
+                  </svg>
+              </button>
+            </div>
+              <nav class="menu-nav">
+                  <ul class="menu-nav-list">
+                  <li class="menu-nav-list-item"><a class="menu-nav-link" href="">About</a></li>
+                  <li class="menu-nav-list-item"><a class="menu-nav-link" href="">Yachts</a></li>
+                  <li class="menu-nav-list-item"><a class="menu-nav-link" href="">Reviews</a></li>
+                  </ul>
+                 </nav>
+                     <ul class="menu-icon-list">
+                      <li class="menu-icon-list-item"><svg class="menu-icon" width="24" height="24">
+                        <use href="../img/sprite.svg#instagram"></use>
+                      </svg></li>
+                      <li class="menu-icon-list-item"><svg class="menu-icon" width="24" height="24">
+                        <use href="../img/sprite.svg#youtube"></use>
+                      </svg></li>
+                      <li class="menu-icon-list-item"><svg class="menu-icon" width="24" height="24">
+                        <use href="../img/sprite.svg#facebook"></use>
+                      </svg></li>
+                     </ul>
+          </div>
+       </div>
+     <!-- #endregion mobile menu  -->
+  </header>
+    <body>
+
